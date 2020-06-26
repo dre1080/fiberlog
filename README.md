@@ -2,7 +2,7 @@
 
 [![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://pkg.go.dev/github.com/dre1080/fiberlog)
 
-HTTP request/response logger for Fiber using [zerolog](https://github.com/rs/zerolog).
+HTTP request/response logger for [Fiber](https://github.com/gofiber/fiber) using [zerolog](https://github.com/rs/zerolog).
 
 ### Install
 
