@@ -31,7 +31,8 @@ func main() {
   app.Use(fiberlog.New(fiberlog.Config{
     Logger: &zerolog.New(os.Stdout),
     Next: func(ctx *fiber.Ctx) bool {
-      return ctx.Path() != "/private"
+      // skip if we hit /private
+      return ctx.Path() == "/private"
     },
   }))
 
